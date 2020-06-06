@@ -1,6 +1,9 @@
 ## samp-another-chat
 Another chat for SA-MP
 
+## Images
+![Image](https://i.ibb.co/jWjLBwq/sa-mp-833.png)
+
 ## Installation
 Simply install to your project:
 ```bash
@@ -32,7 +35,7 @@ YCMD:test(playerid, const params[], help)
 public OnPlayerDisconnect(playerid, reason)
 {
     Chat_Destroy(playerid);
-    return 1;
+    return 1;a
 }
 ```
 ```pawn
