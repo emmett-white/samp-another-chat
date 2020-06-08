@@ -35,7 +35,7 @@ YCMD:test(playerid, const params[], help)
 public OnPlayerDisconnect(playerid, reason)
 {
     Chat_Destroy(playerid);
-    return 1;a
+    return 1;
 }
 ```
 ```pawn
